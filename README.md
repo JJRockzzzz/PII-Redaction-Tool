@@ -5,6 +5,7 @@
 Usage:
 
 python redact.py "Red Herring Prospectus.docx" "Red Herring Prospectus - Redacted.docx"
+
 python evaluate.py
 
 The implementation is a conservative hybrid of regular expressions (regex) and usual document-context rules. It handles all e-mail addresses, Indian telephone numbers, IPv4 addresses, SSNs, Credit Card no.s, physical addresses, organisation names, titled or contact person names, and dates only when the paragraph explicitly identifies them as a date of birth. Replacements are deterministic within each run, so repeated values receive the same alternative determined earlier.
