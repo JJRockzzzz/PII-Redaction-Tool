@@ -1,0 +1,18 @@
+{
+  "input": "Red Herring Prospectus.docx",
+  "output": "Red Herring Prospectus - Redacted.docx",
+  "occurrences_redacted": {
+    "company": 172,
+    "phone": 49,
+    "email": 122,
+    "person": 202,
+    "address": 19
+  },
+  "unique_values_redacted": {
+    "company": 74,
+    "phone": 33,
+    "email": 41,
+    "person": 35,
+    "address": 13
+  }
+}
